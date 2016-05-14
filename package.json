@@ -1,6 +1,6 @@
 {
   "name": "gulp-grab-bag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Useful Gulp tasks and helpers",
   "repository": {
     "type": "git",
