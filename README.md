@@ -7,6 +7,11 @@ Currently just a set of Gulp tasks I use for NPM packaging. Performs the followi
 
 All tasks will watch for file changes. Syntax errors will generate helpfully obtrusive alert windows with the error information.
 
+## Installation
+`npm install --save gulp-grab-bag`
+
+## Usage
+
 ```js
 import gulp from 'gulp'
 import {initializeSettings, gulpTask, jsTasks} from 'gulp-grab-bag'
