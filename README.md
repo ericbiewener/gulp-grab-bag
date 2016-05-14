@@ -5,10 +5,11 @@ Currently just a set of Gulp tasks I use for NPM packaging. Performs the followi
 2. Creates a file-for-file mirror of the `src` directory, but compiled with Babel.
 3. Compiles JS in an `examples` folder.
 
+All tasks will watch for file changes. Syntax errors will generate helpfully obtrusive alert windows with the error information.
+
 ```js
 import gulp from 'gulp'
-
-import {initializeSettings, gulpTask, jsTasks} from './_gulp/src/index'
+import {initializeSettings, gulpTask, jsTasks} from 'gulp-grab-bag'
 
 
 initializeSettings({
