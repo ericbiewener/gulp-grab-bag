@@ -12,7 +12,7 @@ export default function() {
 	function bundle() {
 		console.log('JS examples')
 
-		b.bundle()
+		return b.bundle()
 			.on('error', emitJsError)
 			.pipe(source('bundle.js'))
 			.pipe(buffer())

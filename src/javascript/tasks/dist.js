@@ -13,7 +13,7 @@ export default function(...importsToIgnore) {
 	function bundle() {
 		console.log('JS dist')
 
-		b.bundle()
+		return b.bundle()
 			.on('error', emitJsError)
 			.pipe(source(`${paths.bundleName}.js`))
 			.pipe(buffer())
